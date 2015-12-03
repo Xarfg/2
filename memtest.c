@@ -232,7 +232,7 @@ int main()
   my_mem_init(memoire, TAILLE_MEMOIRE);
     my_mem_show(afficher_zone);
 
-  for (i=0; i<1000; i++) {
+  for (i=0; i<10; i++) {
       if (nb_alloc && (rand() & 1)) {
           for (j=0; !allocs[j]; j++) {
           }

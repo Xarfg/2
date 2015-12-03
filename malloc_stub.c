@@ -8,7 +8,7 @@
 
 static char memory[MEMORY_SIZE];
 
-static __thread int in_lib=0;
+static __thread int in_lib=1;
 
 #define dprintf(args...) \
   do { \
